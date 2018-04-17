@@ -71,10 +71,16 @@ a:active {
 
 
 .nav-menu>li>a {
-	padding: 16px 18px;
+	padding: 10px;
 	display: inline-block;
 	font-size: 19px;
 	transition: color .3s, background .3s;
+}
+
+@media (min-width: 992px) { 
+	.nav-menu>li>a {
+		padding: 16px;
+	}
 }
 
 .navigation-portrait .nav-menu>li>a {
@@ -1941,7 +1947,9 @@ h4 {
 	padding-bottom: 56.25%;
 	padding-top: 30px;
 	height: 0;
+	min-height: 300px;
 	overflow: hidden;
+
 }
 .responsive-iframe-container iframe,   
 .vresponsive-iframe-container object,  
